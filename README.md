@@ -6,4 +6,4 @@ Run `npm start` and interact with this one page app. It will refresh with a new 
 
 ## What does it look like?
 
-![Screengrab of the webapp](hhttps://github.com/timcastillogill/moviesGenerator/tree/main/img)
+![Screengrab of the webapp](https://github.com/timcastillogill/moviesGenerator/blob/main/img/titanic_screengrab.png)
