@@ -5,13 +5,12 @@ function Movie() {
   let [data, loading, error, refresh] = useHarperDB({
     query: {
       operation: "sql",
-      sql: `select * from collection.movie where id = ${
-        Math.floor(Math.random() * 8) + 1
+      sql: `select * from collection.movie where id_movie = ${
+        Math.floor(Math.random() * 7) + 1
       }`,
     },
     interval: 40000,
   });
-
   if (loading) {
     return <div> Loading... </div>;
   }
